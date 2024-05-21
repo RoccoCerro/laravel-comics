@@ -11,7 +11,7 @@
   @include('partials.header')
 
   <main>
-  
+    Questo è il main
   </main>
 
   @include('partials.footer')
