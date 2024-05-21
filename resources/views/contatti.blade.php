@@ -34,7 +34,7 @@
       </ul>
     </div>
     <div class="col-6">
-    <ul class="list-group">
+      <ul class="list-group">
         <h1>Contatti email</h1>
         <li class="list-group-item">
           <h3>Centralino</h3>
