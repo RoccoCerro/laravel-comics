@@ -1,9 +1,12 @@
 @use './variables.scss' as *;
 
 header.page-header{
-  background-color: white;
-  height: 115px;
-  font-weight: bold;
+  height: 130px;
+  // font-weight: bold;
+
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 
   .container, .row{
     height: 100%;
@@ -24,21 +27,51 @@ header.page-header{
   .my-col-link{
     height: 100%;
 
-    ul,li{
+    ul,li,a{
       height: 100%;
-      
     }
     
     li{
-      line-height: 80px;
-      
+      cursor: pointer;
+
       &:hover{
         border-bottom: 5px solid $blue-default;
       }
-    }
 
+    }
+    
+    .my-dropdown {
+
+      button{
+        color: rgba(20, 20, 20, 0.822);
+        border: none;
+        background-color: white;
+
+        font-family: "Inria Sans", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding: none;
+        margin: none;
+        line-height: 75px;
+      
+        &:last-of-type{
+          color: $blue-default;
+        }
+      }
+
+      .my-dropdown-menu{    
+
+        li{
+          font-size: 12px;
+          background-color: rgb(235, 233, 233);
+        }
+      }
+    }
+    
     a{
-      color: black;
+      color: rgba(20, 20, 20, 0.822);
+      display: inline-block;
+      line-height: 75px;
     }
   }
 
@@ -58,6 +91,7 @@ header.page-header{
       right: 15px;
       bottom: 50%;
       transform: translateY(50%);
+      pointer-events: none;
     }
   }
 
