@@ -4,17 +4,18 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
+    return view('home');
+})->name('home');
+
+Route::get('/comics', function () {
+
     // recupera i dati dal file paste.php che abbiamo copiato dentro alla cartella config
     $comics = config("comics");
     // dd($comics);
 
-    return view('home',[
+    return view('comics',[
         'comics' => $comics
     ]);
-})->name('home');
-
-Route::get('/comics', function () {
-    return view('comics');
 })->name('comics');
 
 Route::get('/contatti', function () {

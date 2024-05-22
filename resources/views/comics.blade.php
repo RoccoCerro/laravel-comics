@@ -4,6 +4,21 @@
 
 @section('main')
   <div class="container">
-    <h1>Page comics</h1>
+    <div class="row">
+    @foreach($comics as $comic)
+
+      <div class="col-2">
+        <div class="card h-100">
+          <img src="{{ $comic["thumb"] }}" alt="">
+          <div class="card-body">
+            <p class="card-text">
+              {{ $comic["title"] }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+    @endforeach
+    </div>
   </div>
 @endsection

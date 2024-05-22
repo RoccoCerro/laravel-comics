@@ -19,11 +19,21 @@ header.page-header{
   }
 
   .my-col-search{
+    position: relative;
+
     input{
+      padding-right: 25px;
       outline: none;
       border: none;
       border-bottom: 2px solid #0282F9;
       text-align: right;
+    }
+
+    i{
+      position: absolute;
+      right: 15px;
+      bottom: 50%;
+      transform: translateY(50%);
     }
   }
 
