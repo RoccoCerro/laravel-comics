@@ -6,6 +6,7 @@ Route::get('/', function () {
 
     // recupera i dati dal file paste.php che abbiamo copiato dentro alla cartella config
     $comics = config("comics");
+    // dd($comics);
 
     return view('home');
 })->name('home');
