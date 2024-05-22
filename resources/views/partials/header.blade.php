@@ -5,26 +5,26 @@
         <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
       </div>
       <div class="col-auto my-col-link">
-        <ul class="list-group list-group-horizontal">
-          <li class="list-unstyled p-2">
+        <ul class="list-group list-group-horizontal list-unstyled">
+          <li class=" p-2">
             <a class="text-decoration-none" href="{{ route('home') }}">HOME</a>
           </li>
-          <li class="list-unstyled p-2">
+          <li class=" p-2">
             <a class="text-decoration-none" href="{{ route('comics') }}">COMICS</a>
           </li>
-          <li class="list-unstyled p-2">
+          <li class=" p-2">
             <a class="text-decoration-none" href="#">MOVIES</a>
           </li>
-          <li class="list-unstyled p-2">
+          <li class=" p-2">
             <a class="text-decoration-none" href="#">TV</a>
           </li>
-          <li class="list-unstyled p-2">
+          <li class=" p-2">
             <a class="text-decoration-none" href="#">GAMES</a>
           </li>
-          <li class="list-unstyled p-2">
+          <li class=" p-2">
             <a class="text-decoration-none" href="#">VIDEOS</a>
           </li>
-          <li class="list-unstyled p-2">
+          <li class=" p-2">
             <a class="text-decoration-none" href="#">FANS</a>
           </li>
         </ul>
