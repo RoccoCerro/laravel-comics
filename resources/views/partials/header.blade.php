@@ -6,26 +6,26 @@
       </div>
       <div class="col-auto my-col-link">
         <ul class="list-group list-group-horizontal">
-          <li class="list-group-item">
-            <a href="{{ route('home') }}">Home</a>
+          <li class="list-unstyled p-2">
+            <a class="text-decoration-none" href="{{ route('home') }}">HOME</a>
           </li>
-          <li class="list-group-item">
-            <a href="{{ route('comics') }}">Comics</a>
+          <li class="list-unstyled p-2">
+            <a class="text-decoration-none" href="{{ route('comics') }}">COMICS</a>
           </li>
-          <li class="list-group-item">
-            <a href="#">MOVIES</a>
+          <li class="list-unstyled p-2">
+            <a class="text-decoration-none" href="#">MOVIES</a>
           </li>
-          <li class="list-group-item">
-            <a href="#">TV</a>
+          <li class="list-unstyled p-2">
+            <a class="text-decoration-none" href="#">TV</a>
           </li>
-          <li class="list-group-item">
-            <a href="#">GAMES</a>
+          <li class="list-unstyled p-2">
+            <a class="text-decoration-none" href="#">GAMES</a>
           </li>
-          <li class="list-group-item">
-            <a href="#">VIDEOS</a>
+          <li class="list-unstyled p-2">
+            <a class="text-decoration-none" href="#">VIDEOS</a>
           </li>
-          <li class="list-group-item">
-            <a href="#">FANS</a>
+          <li class="list-unstyled p-2">
+            <a class="text-decoration-none" href="#">FANS</a>
           </li>
         </ul>
       </div>

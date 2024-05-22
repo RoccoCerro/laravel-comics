@@ -1,6 +1,7 @@
 header.page-header{
   background-color: white;
   height: 115px;
+  font-weight: bold;
 
   .container, .row{
     height: 100%;
@@ -15,6 +16,14 @@ header.page-header{
     img{
       width: 80px;
       aspect-ratio: 1/1;
+    }
+  }
+
+  .my-col-link{
+
+    a{
+      color: black;
+
     }
   }
 
