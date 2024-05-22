@@ -5,9 +5,9 @@
 @section('main')
   <div class="container">
     <h1>Homepage</h1>
+  <?php
+    @var_dump($comics);
+  ?>
   </div>
 
-  <?php
-    @var_dump($comics[1]=>"title")
-  ?>
 @endsection
