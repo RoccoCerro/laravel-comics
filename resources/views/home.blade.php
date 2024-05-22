@@ -4,6 +4,10 @@
 
 @section('main')
 
+  <style>
+    
+  </style>
+
   <div class="container">
     <div class="row">
       @foreach($comics as $comic)
