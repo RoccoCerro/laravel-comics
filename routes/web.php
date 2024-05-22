@@ -3,6 +3,10 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
+
+    // recupera i dati dal file paste.php che abbiamo copiato dentro alla cartella config
+    $comics = config("comics");
+
     return view('home');
 })->name('home');
 
